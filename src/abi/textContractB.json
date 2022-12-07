@@ -1,0 +1,34 @@
+[
+  { "inputs": [], "stateMutability": "nonpayable", "type": "constructor" },
+  {
+    "inputs": [
+      { "internalType": "string", "name": "name", "type": "string" },
+      { "internalType": "string", "name": "email", "type": "string" },
+      { "internalType": "string", "name": "userAddress", "type": "string" },
+      { "internalType": "uint256", "name": "zestimate", "type": "uint256" }
+    ],
+    "name": "addData",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "counter",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "name": "dataStore",
+    "outputs": [
+      { "internalType": "string", "name": "name", "type": "string" },
+      { "internalType": "string", "name": "email", "type": "string" },
+      { "internalType": "string", "name": "userAddress", "type": "string" },
+      { "internalType": "uint256", "name": "zestimate", "type": "uint256" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
